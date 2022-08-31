@@ -1,0 +1,66 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-AppStore {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -60px;
+  width: 196px;
+  height: 57px;
+}
+.icon-GooglePlay {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 196px;
+  height: 58px;
+}
+.icon-block__icon_num_1 {
+  background-image: url(../img/sprite.png);
+  background-position: -198px 0px;
+  width: 82px;
+  height: 82px;
+}
+.icon-block__icon_num_2 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -119px;
+  width: 82px;
+  height: 82px;
+}
+.icon-block__icon_num_3 {
+  background-image: url(../img/sprite.png);
+  background-position: -84px -119px;
+  width: 82px;
+  height: 82px;
+}
+.icon-facebook {
+  background-image: url(../img/sprite.png);
+  background-position: -168px -119px;
+  width: 48px;
+  height: 48px;
+}
+.icon-odnoklassniki {
+  background-image: url(../img/sprite.png);
+  background-position: -218px -119px;
+  width: 48px;
+  height: 48px;
+}
+.icon-vkontakte {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -203px;
+  width: 46px;
+  height: 46px;
+}
